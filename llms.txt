@@ -1,0 +1,31 @@
+# تصميم المرشدين الذكيين والمساعدات الذكية للمقررات
+
+> مرشد يلمّح ولا يحل: تهيئه بحلولك المفصلة، وتختبره بثلاثين سؤالًا قبل أن يصل إليه طلبتك، وتخطط لقياس أثره دون مساعدة. مقرر من أكاديمية سدايا، الرمز USE-EDU-204، الإصدار 2027.1.0، بالعربية.
+
+كل شريحة عنوان مثل "#### [day1#slide-id] العنوان": استشهد بالشرائح بهذا المعرّف، وكل استشهاد رابط (slides/day1.html#slide-id). هذه الملفات هي ما يراه المشارك: لا ملاحظات المدرّب فيها ولا مفاتيح الإجابة.
+
+## المقرر
+
+- [صفحة المقرر](https://sdaiaacademy.github.io/use-edu-204/index.md): نظرة عامة ونواتج التعلم والجدول والمختبرات؛ الصفحة نفسها https://sdaiaacademy.github.io/use-edu-204/index.html
+- [المقرر كاملًا](https://sdaiaacademy.github.io/use-edu-204/llms-full.txt): كل وحدة وجلسة وشريحة في ملف واحد، نحو 11,248 من الوحدات النصية
+- [أسئلة التدريب](https://sdaiaacademy.github.io/use-edu-204/practice.html): أسئلة تختبر بها نفسك، مع تعليل بعد كل إجابة
+
+## الشرائح
+
+- [اليوم 1: من محرك الإجابات إلى المرشد](https://sdaiaacademy.github.io/use-edu-204/slides/day1.md): الفترة الأولى، نصف يوم: تهيئ مرشدًا يلمّح بحلولك المفصلة، ثم تختبره بثلاثين سؤالًا قبل أن يراه طلبتك؛ الجلسات: مرشد لا محرك إجابات، اختبره قبل أن يراه طلبتك؛ الصفحة: https://sdaiaacademy.github.io/use-edu-204/slides/day1.html؛ نحو 5,041 من الوحدات النصية
+- [اليوم 2: ضوابط الحماية وأدلة الأثر](https://sdaiaacademy.github.io/use-edu-204/slides/day2.md): الفترة الثانية، نصف يوم: تحاول كسر المرشد بستة سيناريوهات، وتضيف الضوابط وتعيد الاختبار، ثم تخطط لقياس أثره دون مساعدة؛ الجلسات: تمرين الفرق الحمراء وضوابط الحماية، قياس أثر التعلم؛ الصفحة: https://sdaiaacademy.github.io/use-edu-204/slides/day2.html؛ نحو 4,497 من الوحدات النصية
+- [المشروع الختامي: مراجعة المرشد المختبَر وخطة التقييم](https://sdaiaacademy.github.io/use-edu-204/slides/capstone.md): بعد المشروع التجريبي: مراجعة فردية من عشر دقائق، ست للعرض وأربع لثلاثة أسئلة يختارها المراجع وتُشغَّل على مرشدك مباشرة؛ الصفحة: https://sdaiaacademy.github.io/use-edu-204/slides/capstone.html؛ نحو 1,078 من الوحدات النصية
+
+## المختبرات
+
+- [المختبر 1.1: تهيئة المرشد الذكي](https://sdaiaacademy.github.io/use-edu-204/labs/D1_1_configure.md): اليوم 1، الجلسة 1، 65 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-edu-204/labs/D1_1_configure.html
+- [المختبر 1.2: تشغيل مجموعة اختبار من 30 سؤالًا](https://sdaiaacademy.github.io/use-edu-204/labs/D1_2_test_set.md): اليوم 1، الجلسة 2، 70 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-edu-204/labs/D1_2_test_set.html
+- [المختبر 2.1: تمرين الفرق الحمراء وإضافة ضوابط الحماية وإعادة الاختبار](https://sdaiaacademy.github.io/use-edu-204/labs/D2_1_red_team.md): اليوم 2، الجلسة 1، 75 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-edu-204/labs/D2_1_red_team.html
+- [المختبر 2.2: صياغة خطة التقييم](https://sdaiaacademy.github.io/use-edu-204/labs/D2_2_evaluation.md): اليوم 2، الجلسة 2، 60 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-edu-204/labs/D2_2_evaluation.html
+
+## ملفات السياق
+
+- [context/course.md](https://sdaiaacademy.github.io/use-edu-204/context/course.md): المقرر كاملًا، لمساعد يقبل ملفًا مرفقًا، نحو 11,248 من الوحدات النصية
+- [context/day1.md](https://sdaiaacademy.github.io/use-edu-204/context/day1.md): اليوم 1، نحو 5,041 من الوحدات النصية
+- [context/day2.md](https://sdaiaacademy.github.io/use-edu-204/context/day2.md): اليوم 2، نحو 4,497 من الوحدات النصية
+- [context/capstone.md](https://sdaiaacademy.github.io/use-edu-204/context/capstone.md): المشروع الختامي، نحو 1,078 من الوحدات النصية

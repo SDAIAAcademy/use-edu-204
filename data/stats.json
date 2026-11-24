@@ -1,0 +1,505 @@
+{
+  "v": 1,
+  "engine": "1.0.0",
+  "build": {
+    "at": "2026-11-24T19:20:59Z",
+    "version": "2027.1.0",
+    "commit": "9ef9651"
+  },
+  "lang": "ar",
+  "dir": "rtl",
+  "totals": {
+    "decks": 3,
+    "slides": 71,
+    "words": 4349,
+    "notes": 67,
+    "notes_ratio": 0.94,
+    "activities": 5,
+    "styles": 15,
+    "slide_minutes": null,
+    "components": {
+      "cards": 49,
+      "pills": 0,
+      "callouts": 28,
+      "tables": 8,
+      "code": 0,
+      "tokens": 0,
+      "flows": 3,
+      "stats": 7,
+      "bars": 4,
+      "meters": 0,
+      "agendas": 3,
+      "quizzes": 5,
+      "checklists": 4,
+      "prompts": 0,
+      "chats": 5,
+      "tools": 0,
+      "traces": 0,
+      "ladders": 1,
+      "figures": 0,
+      "matrices": 0,
+      "timers": 2,
+      "columns": 33,
+      "images": 0,
+      "drawings": 0,
+      "fragments": 7
+    },
+    "minutes": 480
+  },
+  "decks": [
+    {
+      "deck": "day1",
+      "kind": "day",
+      "label": "اليوم 1",
+      "title": "من محرك الإجابات إلى المرشد",
+      "slides": 33,
+      "words": 2137,
+      "notes": 31,
+      "notes_ratio": 0.94,
+      "activities": 2,
+      "styles": 8,
+      "slide_minutes": null,
+      "components": {
+        "cards": 24,
+        "pills": 0,
+        "callouts": 16,
+        "tables": 3,
+        "code": 0,
+        "tokens": 0,
+        "flows": 2,
+        "stats": 4,
+        "bars": 2,
+        "meters": 0,
+        "agendas": 1,
+        "quizzes": 2,
+        "checklists": 2,
+        "prompts": 0,
+        "chats": 2,
+        "tools": 0,
+        "traces": 0,
+        "ladders": 1,
+        "figures": 0,
+        "matrices": 0,
+        "timers": 0,
+        "columns": 16,
+        "images": 0,
+        "drawings": 0,
+        "fragments": 7
+      },
+      "minutes": 245,
+      "sessions": [
+        {
+          "n": 1,
+          "label": "الجلسة 1",
+          "title": "مرشد لا محرك إجابات",
+          "slides": 12,
+          "words": 835,
+          "notes": 11,
+          "notes_ratio": 0.92,
+          "activities": 1,
+          "styles": 5,
+          "slide_minutes": null,
+          "components": {
+            "cards": 6,
+            "pills": 0,
+            "callouts": 7,
+            "tables": 1,
+            "code": 0,
+            "tokens": 0,
+            "flows": 0,
+            "stats": 4,
+            "bars": 1,
+            "meters": 0,
+            "agendas": 0,
+            "quizzes": 1,
+            "checklists": 1,
+            "prompts": 0,
+            "chats": 2,
+            "tools": 0,
+            "traces": 0,
+            "ladders": 1,
+            "figures": 0,
+            "matrices": 0,
+            "timers": 0,
+            "columns": 7,
+            "images": 0,
+            "drawings": 0,
+            "fragments": 0
+          },
+          "minutes": 125,
+          "lab_minutes": 65
+        },
+        {
+          "n": 2,
+          "label": "الجلسة 2",
+          "title": "اختبره قبل أن يراه طلبتك",
+          "slides": 15,
+          "words": 908,
+          "notes": 14,
+          "notes_ratio": 0.93,
+          "activities": 1,
+          "styles": 3,
+          "slide_minutes": null,
+          "components": {
+            "cards": 12,
+            "pills": 0,
+            "callouts": 7,
+            "tables": 1,
+            "code": 0,
+            "tokens": 0,
+            "flows": 2,
+            "stats": 0,
+            "bars": 1,
+            "meters": 0,
+            "agendas": 0,
+            "quizzes": 1,
+            "checklists": 1,
+            "prompts": 0,
+            "chats": 0,
+            "tools": 0,
+            "traces": 0,
+            "ladders": 0,
+            "figures": 0,
+            "matrices": 0,
+            "timers": 0,
+            "columns": 6,
+            "images": 0,
+            "drawings": 0,
+            "fragments": 7
+          },
+          "minutes": 120,
+          "lab_minutes": 70
+        }
+      ]
+    },
+    {
+      "deck": "day2",
+      "kind": "day",
+      "label": "اليوم 2",
+      "title": "ضوابط الحماية وأدلة الأثر",
+      "slides": 28,
+      "words": 1864,
+      "notes": 26,
+      "notes_ratio": 0.93,
+      "activities": 3,
+      "styles": 3,
+      "slide_minutes": null,
+      "components": {
+        "cards": 19,
+        "pills": 0,
+        "callouts": 10,
+        "tables": 4,
+        "code": 0,
+        "tokens": 0,
+        "flows": 1,
+        "stats": 3,
+        "bars": 1,
+        "meters": 0,
+        "agendas": 1,
+        "quizzes": 3,
+        "checklists": 2,
+        "prompts": 0,
+        "chats": 3,
+        "tools": 0,
+        "traces": 0,
+        "ladders": 0,
+        "figures": 0,
+        "matrices": 0,
+        "timers": 0,
+        "columns": 15,
+        "images": 0,
+        "drawings": 0,
+        "fragments": 0
+      },
+      "minutes": 235,
+      "sessions": [
+        {
+          "n": 1,
+          "label": "الجلسة 1",
+          "title": "تمرين الفرق الحمراء وضوابط الحماية",
+          "slides": 12,
+          "words": 838,
+          "notes": 11,
+          "notes_ratio": 0.92,
+          "activities": 1,
+          "styles": 3,
+          "slide_minutes": null,
+          "components": {
+            "cards": 9,
+            "pills": 0,
+            "callouts": 5,
+            "tables": 2,
+            "code": 0,
+            "tokens": 0,
+            "flows": 0,
+            "stats": 0,
+            "bars": 1,
+            "meters": 0,
+            "agendas": 0,
+            "quizzes": 1,
+            "checklists": 1,
+            "prompts": 0,
+            "chats": 3,
+            "tools": 0,
+            "traces": 0,
+            "ladders": 0,
+            "figures": 0,
+            "matrices": 0,
+            "timers": 0,
+            "columns": 8,
+            "images": 0,
+            "drawings": 0,
+            "fragments": 0
+          },
+          "minutes": 130,
+          "lab_minutes": 75
+        },
+        {
+          "n": 2,
+          "label": "الجلسة 2",
+          "title": "قياس أثر التعلم",
+          "slides": 13,
+          "words": 822,
+          "notes": 12,
+          "notes_ratio": 0.92,
+          "activities": 1,
+          "styles": 0,
+          "slide_minutes": null,
+          "components": {
+            "cards": 10,
+            "pills": 0,
+            "callouts": 4,
+            "tables": 2,
+            "code": 0,
+            "tokens": 0,
+            "flows": 1,
+            "stats": 3,
+            "bars": 0,
+            "meters": 0,
+            "agendas": 0,
+            "quizzes": 1,
+            "checklists": 1,
+            "prompts": 0,
+            "chats": 0,
+            "tools": 0,
+            "traces": 0,
+            "ladders": 0,
+            "figures": 0,
+            "matrices": 0,
+            "timers": 0,
+            "columns": 7,
+            "images": 0,
+            "drawings": 0,
+            "fragments": 0
+          },
+          "minutes": 105,
+          "lab_minutes": 60
+        }
+      ]
+    },
+    {
+      "deck": "capstone",
+      "kind": "capstone",
+      "label": "المشروع الختامي",
+      "title": "مراجعة المرشد المختبَر وخطة التقييم",
+      "slides": 10,
+      "words": 348,
+      "notes": 10,
+      "notes_ratio": 1,
+      "activities": 0,
+      "styles": 4,
+      "slide_minutes": null,
+      "components": {
+        "cards": 6,
+        "pills": 0,
+        "callouts": 2,
+        "tables": 1,
+        "code": 0,
+        "tokens": 0,
+        "flows": 0,
+        "stats": 0,
+        "bars": 1,
+        "meters": 0,
+        "agendas": 1,
+        "quizzes": 0,
+        "checklists": 0,
+        "prompts": 0,
+        "chats": 0,
+        "tools": 0,
+        "traces": 0,
+        "ladders": 0,
+        "figures": 0,
+        "matrices": 0,
+        "timers": 2,
+        "columns": 2,
+        "images": 0,
+        "drawings": 0,
+        "fragments": 0
+      },
+      "minutes": null,
+      "sessions": []
+    }
+  ],
+  "coverage": [
+    {
+      "id": "LO1",
+      "text": "يشرح ما يميز المرشد الذكي من محرك الإجابات، استنادًا إلى سجلي تفاعل عن المسألة نفسها",
+      "level": "Awareness",
+      "slides": [
+        "day1#open-vs-tutor",
+        "day1#what-tutor-held",
+        "day1#physics-tutor",
+        "day1#two-transcripts",
+        "day1#four-marks",
+        "day1#check-transcript"
+      ],
+      "activities": [
+        "day1#check-transcript-q1"
+      ],
+      "sessions": [
+        "day1/1"
+      ],
+      "labs": [
+        "1.1"
+      ],
+      "questions": [
+        "q-tutor-01",
+        "q-tutor-02",
+        "q-tutor-03",
+        "q-tutor-04"
+      ],
+      "covered": true
+    },
+    {
+      "id": "LO2",
+      "text": "يهيئ مرشدًا ذكيًا يكتفي بالتلميحات، بتعليمات دائمة وحلول مفصلة وسلم تقدير، في وحدة واحدة من مقرر المشارك",
+      "level": "Applied",
+      "slides": [
+        "day1#what-tutor-held",
+        "day1#hint-ladder",
+        "day1#explain-back",
+        "day1#what-goes-in",
+        "day1#instruction-file"
+      ],
+      "activities": [],
+      "sessions": [
+        "day1/1"
+      ],
+      "labs": [
+        "1.1"
+      ],
+      "questions": [
+        "q-config-01",
+        "q-config-02",
+        "q-config-03",
+        "q-config-04"
+      ],
+      "covered": true
+    },
+    {
+      "id": "LO3",
+      "text": "يختبر المرشد الذكي بأسئلة بأسلوب المتعلمين، منها محاولات لانتزاع الإجابة، على مجموعة اختبار من 30 سؤالًا باستخدام الحلول المفصلة",
+      "level": "Applied",
+      "slides": [
+        "day1#test-before-learners",
+        "day1#three-kinds",
+        "day1#extraction-tactics",
+        "day1#three-labels",
+        "day1#three-rates",
+        "day1#leak-finder",
+        "day1#one-fix",
+        "day1#timestamped-log",
+        "day1#check-rates",
+        "day1#debrief-1-2",
+        "day2#red-team",
+        "day2#override",
+        "day2#retest-each-fix",
+        "day2#debrief-2-1"
+      ],
+      "activities": [
+        "day1#check-rates-q1",
+        "day2#check-day1-q1"
+      ],
+      "sessions": [
+        "day1/2",
+        "day2/1"
+      ],
+      "labs": [
+        "1.2",
+        "2.1"
+      ],
+      "questions": [
+        "q-test-01",
+        "q-test-02",
+        "q-test-03",
+        "q-test-04",
+        "q-test-05"
+      ],
+      "covered": true
+    },
+    {
+      "id": "LO4",
+      "text": "ينفذ ضوابط حماية لخصوصية المتعلمين والإفصاح عن استخدام الذكاء الاصطناعي والتصعيد إلى المعلم، استنادًا إلى قواعد المؤسسة التعليمية وستة سيناريوهات لسوء الاستخدام",
+      "level": "Applied",
+      "slides": [
+        "day2#red-team",
+        "day2#privacy-guardrail",
+        "day2#disclosure",
+        "day2#escalation",
+        "day2#retention-oversight",
+        "day2#guardrail-text",
+        "day2#check-guardrails",
+        "day2#debrief-2-1"
+      ],
+      "activities": [
+        "day2#check-guardrails-q1"
+      ],
+      "sessions": [
+        "day2/1"
+      ],
+      "labs": [
+        "2.1"
+      ],
+      "questions": [
+        "q-guard-01",
+        "q-guard-02",
+        "q-guard-03",
+        "q-guard-04",
+        "q-guard-05"
+      ],
+      "covered": true
+    },
+    {
+      "id": "LO5",
+      "text": "يصمم تقييمًا صغيرًا لمعرفة ما إذا كان المرشد الذكي يحسّن الأداء دون مساعدة، في دفعة واحدة مع اختبار بعدي دون ذكاء اصطناعي",
+      "level": "Performance",
+      "slides": [
+        "day2#practice-not-learning",
+        "day2#crossover",
+        "day2#consent",
+        "day2#decision-rule",
+        "day2#support-human-tutor",
+        "day2#pilot",
+        "day2#check-evaluation",
+        "day2#debrief-2-2"
+      ],
+      "activities": [
+        "day2#check-evaluation-q1"
+      ],
+      "sessions": [
+        "day2/2"
+      ],
+      "labs": [
+        "2.2"
+      ],
+      "questions": [
+        "q-eval-01",
+        "q-eval-02",
+        "q-eval-03",
+        "q-eval-04",
+        "q-eval-05"
+      ],
+      "covered": true
+    }
+  ]
+}
