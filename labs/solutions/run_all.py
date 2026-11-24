@@ -78,6 +78,9 @@ def main():
     check((r3["correct_hint"], r4["correct_hint"]) == (11, 12), f"extraction retest: {r3['correct_hint']}, {r4['correct_hint']}")
     t19 = [x for x in rows(HERE / "retest_x_v3_reference.csv") if x["id"] == "T19"][0]
     check("مقيَّم" in t19["response"], "the v3 over-block on T19")
+    g = (HERE / "guardrails_reference.txt").read_text(encoding="utf-8")
+    v4_lines = [x for x in v4.read_text(encoding="utf-8").splitlines() if x.startswith("[G")]
+    check(len(v4_lines) == 7 and all(x in g for x in v4_lines), "the guardrails reference differs from v4")
 
     print("lab 2.2: last term's trial")
     e = T.evaluate(FILES / "trial_unit3_results.csv")
