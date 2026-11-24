@@ -90,6 +90,17 @@ def main():
     lower = bands["أدنى"]["ai"] - bands["أدنى"]["none"]
     check(lower == min(b["ai"] - b["none"] for b in bands.values()), "the lower band loses most")
     check(e["gap"][e["ai"]] > e["gap"]["دون مساعد"], "the gap widens with the open assistant")
+    # The exact figures on the debrief slide, the lab page and the answer key
+    r2 = lambda x: round(x, 2)
+    pr, po = res["practice_score"], res["posttest_ai_off"]
+    check((pr["n_ai"], pr["n_none"]) == (58, 61), "group sizes")
+    check(tuple(map(r2, (pr["ai"], pr["none"], pr["diff"], *pr["ci"]))) == (15.03, 11.89, 3.15, 2.23, 4.10), f"practice: {pr}")
+    check(tuple(map(r2, (po["ai"], po["none"], po["diff"], *po["ci"]))) == (9.97, 11.39, -1.43, -2.65, -0.19), f"post-test: {po}")
+    want = {"أدنى": (6.07, 8.18, 15, 17), "وسطى": (10.58, 11.11, 33, 28), "عليا": (13.80, 15.31, 10, 16)}
+    for band, w in want.items():
+        b = bands[band]
+        check((r2(b["ai"]), r2(b["none"]), b["n_ai"], b["n_none"]) == w, f"band {band}: {b}")
+    check((r2(e["gap"][e["ai"]]), r2(e["gap"]["دون مساعد"])) == (7.73, 7.14), f"gap: {e['gap']}")
 
     print("PASS")
 
