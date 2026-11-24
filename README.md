@@ -5,7 +5,7 @@ Designing AI Tutors and Course Assistants
 
 مسار الطلاقة في البيانات والذكاء الاصطناعي · أكاديمية سدايا · USE-EDU-204 · المستوى 200
 
-REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك فعله بعد المقرر
+مرشد يلمّح ولا يحل: تهيئه بحلولك المفصلة، وتختبره بثلاثين سؤالًا قبل أن يصل إليه طلبتك، وتخطط لقياس أثره دون مساعدة
 
 يهيئ المعلمون مساعدًا للمقرر يرشد المتعلم بدل أن يحل عنه، ويختبرونه قبل أن يصل إليه المتعلمون: تعليمات لسلم التلميحات وإعادة الشرح من المتعلم، وحلول مفصلة وسلم تقدير لضمان دقة التلميحات، وضوابط حماية، وأسئلة اختبارية بأسلوب المتعلمين تشمل محاولات انتزاع الإجابة. ثم يخططون لقياس أثره في الأداء دون مساعدة. أما بناء برمجيات المرشد الذكي فمن عمل مجموعة المطورين.
 
@@ -29,8 +29,9 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 
 | الوحدة | العنوان | الجلسات | الشرائح |
 |---|---|---|---|
-| اليوم 1 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1; REPLACE: عنوان الجلسة 2 | [`slides/day1.html`](slides/day1.html) |
-| اليوم 2 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1; REPLACE: عنوان الجلسة 2 | [`slides/day2.html`](slides/day2.html) |
+| اليوم 1 | من محرك الإجابات إلى المرشد | مرشد لا محرك إجابات; اختبره قبل أن يراه طلبتك | [`slides/day1.html`](slides/day1.html) |
+| اليوم 2 | ضوابط الحماية وأدلة الأثر | تمرين الفرق الحمراء وضوابط الحماية; قياس أثر التعلم | [`slides/day2.html`](slides/day2.html) |
+| المشروع الختامي | مراجعة المرشد المختبَر وخطة التقييم |  | [`slides/capstone.html`](slides/capstone.html) |
 <!-- /academy:units -->
 
 ## دراسة الحالة
@@ -44,10 +45,10 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 
 | | الجلسة | المختبر | الملف |
 |---|---|---|---|
-| 1.1 | اليوم 1 · الجلسة 1 | REPLACE: ما يبنيه المشاركون في المختبر 1.1 | [`D1_1.html`](labs/D1_1.html) |
-| 1.2 | اليوم 1 · الجلسة 2 | REPLACE: ما يبنيه المشاركون في المختبر 1.2 | [`D1_2.html`](labs/D1_2.html) |
-| 2.1 | اليوم 2 · الجلسة 1 | REPLACE: ما يبنيه المشاركون في المختبر 2.1 | [`D2_1.html`](labs/D2_1.html) |
-| 2.2 | اليوم 2 · الجلسة 2 | REPLACE: ما يبنيه المشاركون في المختبر 2.2 | [`D2_2.html`](labs/D2_2.html) |
+| 1.1 | اليوم 1 · الجلسة 1 | تهيئة المرشد الذكي | [`D1_1_configure.html`](labs/D1_1_configure.html) |
+| 1.2 | اليوم 1 · الجلسة 2 | تشغيل مجموعة اختبار من 30 سؤالًا | [`D1_2_test_set.html`](labs/D1_2_test_set.html) |
+| 2.1 | اليوم 2 · الجلسة 1 | تمرين الفرق الحمراء وإضافة ضوابط الحماية وإعادة الاختبار | [`D2_1_red_team.html`](labs/D2_1_red_team.html) |
+| 2.2 | اليوم 2 · الجلسة 2 | صياغة خطة التقييم | [`D2_2_evaluation.html`](labs/D2_2_evaluation.html) |
 <!-- /academy:labs -->
 
 ## المتطلبات السابقة
@@ -67,7 +68,23 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 <!-- academy:sources -->
 ## المصادر
 
-- REPLACE: كل مصدر يستشهد به المقرر مع عنوانه، في course.json ضمن "sources"؛ هذه القائمة تُكتب من هناك
+### المراجع الوطنية
+
+- [سدايا: مبادئ الذكاء الاصطناعي التوليدي للعموم (الإصدار 1، مايو 2025)](https://sdaia.gov.sa/ar/SDAIA/about/Files/GenerativeAIPublicAR.pdf)
+- [سدايا: مبادئ الذكاء الاصطناعي التوليدي للجهات الحكومية (الإصدار 1، مايو 2025)](https://sdaia.gov.sa/ar/SDAIA/about/Files/GenAIGuidelinesForGovernmentARCompressed.pdf)
+- [سدايا: مبادئ أخلاقيات الذكاء الاصطناعي](https://sdaia.gov.sa/ar/SDAIA/about/Documents/ai-principles.pdf)
+- [نظام حماية البيانات الشخصية](https://sdaia.gov.sa/ar/SDAIA/about/Documents/PersonalDataProtectionLawAr.pdf)
+- [سدايا: صفحة الأنظمة والسياسات](https://sdaia.gov.sa/ar/SDAIA/about/Pages/RegulationsAndPolicies.aspx)
+
+### تجارب المرشدين الذكيين
+
+- [Bastani, Bastani, Sungu, Ge, Kabakcı, Mariman: Generative AI without guardrails can harm learning: Evidence from high school mathematics (PNAS, 2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/)
+- [Kestin, Miller, Klales, Milbourne, Ponti: AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting (Scientific Reports, 2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/)
+- [Wang, Ribeiro, Robinson, Loeb, Demszky: Tutor CoPilot: A Human-AI Approach for Scaling Real-Time Expertise (arXiv, 2024)](https://arxiv.org/abs/2410.03017)
+
+### الأدوات
+
+- [promptfoo: التوثيق](https://www.promptfoo.dev/docs/intro/)
 <!-- /academy:sources -->
 
 ### المرجعيات الوطنية
